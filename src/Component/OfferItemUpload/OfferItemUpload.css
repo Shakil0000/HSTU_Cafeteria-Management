@@ -1,0 +1,53 @@
+.uploadItem-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .uploadItem-form h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .uploadItem-form input[type='text'],
+  .uploadItem-form textarea,
+  .uploadItem-form input[type='file'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .uploadItem-form textarea {
+    height: 100px;
+  }
+  
+  .uploadItem-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .uploadItem-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .uploadItem-form {
+    /* Existing styles */
+}
+
+.uploadItem-select {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

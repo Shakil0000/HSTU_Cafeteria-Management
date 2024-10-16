@@ -1,0 +1,49 @@
+.FoodProductContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.FoodProductItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.FoodProductImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.FoodProductDetails {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.FoodProductTitle {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.FoodProductPrice, .FoodProductOffer {
+    margin: 0.5rem 0;
+}
+
+.FoodProductDeleteButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.FoodProductDeleteButton:hover {
+    background-color: #c0392b;
+}

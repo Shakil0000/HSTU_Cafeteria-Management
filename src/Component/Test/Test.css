@@ -1,0 +1,20 @@
+.TesContainer{
+    height: 6000px;
+    width: 100%;
+    border: 5px solid red;
+}
+
+.TestItemContainer{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+    margin: 100px;
+}
+
+.TestItemContainer2{
+  height: 2000px ;
+  background-color: blue;
+  margin: 100px;
+}

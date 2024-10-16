@@ -1,0 +1,56 @@
+.AdministratorControl-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.AdministratorControl-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.AdministratorControl-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.AdministratorControl-button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.AdministratorControl-button:hover {
+    background-color: #218838;
+}
+
+.AdministratorControl-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.AdministratorControl-table th, .AdministratorControl-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.AdministratorControl-table th {
+    background-color: #4CAF50;
+    color: white;
+}

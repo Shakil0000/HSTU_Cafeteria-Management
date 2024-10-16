@@ -1,0 +1,128 @@
+/* Main container taking 80% of the total screen width */
+.AddToCartContainer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Optional: For visual distinction */
+  }
+  
+  /* Left container taking 70% width */
+  .AddToCartItemContainer {
+    width: 70%;
+    display: flex;
+    flex-direction: column; /* Positions items vertically */
+    gap: 20px; /* Space between AddToCartItem1 and AddToCartItem2 */
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Right container taking 30% width, with sticky positioning */
+  .AddToCartProceedToPayment {
+    width: 30%;
+    position: sticky;
+    top: 80px; /* Adjust this value based on where you want it to stick */
+    height: fit-content;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 1px solid #ddd; /* Optional: For visual separation */
+    background-color: #f8f8f8; /* Optional: For a distinct look */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .OrderSummary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .SummaryItem {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .OrderConfirmButton {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .OrderConfirmButton:hover {
+    background-color: #218838;
+  }
+  
+  /* First item inside AddToCartItemContainer */
+  .AddToCartItem1,
+  .AddToCartItem2 {
+    width: 90%;
+    margin: 0 auto; /* Centers the content horizontally within its parent */
+    display: flex;
+    gap: 10px; /* Space between inner items */
+    padding: 15px;
+    border: 1px solid #ddd; /* Optional: For visual distinction */
+    background-color: #f9f9f9;
+    align-items: center; /* Center content vertically */
+  }
+  
+  /* Product Image - Square Shape */
+  .AddToCartItemPic {
+    width: 20%;
+  }
+  
+  .AddToCartItemPic img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: Rounds corners of the image */
+  }
+  
+  /* Product Title */
+  .AddToCartItemTitle {
+    width: 40%;
+    text-align: left;
+  }
+  
+  /* Delete Button */
+  .AddToCartItemDelete {
+    width: 20%;
+    text-align: center;
+  }
+  
+  .AddToCartItemDelete button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Quantity Control */
+  .AddToCartItemQuantity {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .AddToCartItemQuantity button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .AddToCartItemQuantity span {
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  

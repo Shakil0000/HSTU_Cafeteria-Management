@@ -1,0 +1,21 @@
+.Header{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.HeaderContainer{
+ margin-left: 10px;
+ width: 70%;
+}
+.Submemu_headerpicture img{
+padding-left:15px ;
+padding-top: 0px;
+padding-right: 15px;
+padding-bottom: 3px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 250px;
+}

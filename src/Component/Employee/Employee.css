@@ -1,0 +1,32 @@
+.employeeMainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .employeeDetails {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    padding: 15px 20px;
+    margin: 10px auto;
+    border-radius: 12px;
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .employeeInfo {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .employeeInfo strong {
+    color: #ff6f61;
+  }
+  

@@ -1,0 +1,97 @@
+.OrderInAdministrator-container {
+  padding: 20px;
+  background-color: #f4f4f4; /* Simple background color */
+}
+
+.OrderInAdministrator-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333; /* Dark gray for better readability */
+  margin-bottom: 20px;
+}
+
+.OrderInAdministrator-card {
+  background-color: #ffffff; /* White card background */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(170, 170, 170, 0.2); /* Soft shadow */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.OrderInAdministrator-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(170, 170, 170, 0.3); /* Slightly stronger shadow on hover */
+}
+
+.OrderInAdministrator-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e0e0e0; /* Light gray background */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  margin-bottom: 10px;
+  color: #333; /* Dark gray for text */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.OrderInAdministrator-summary span {
+  margin-right: 10px;
+}
+
+.OrderInAdministrator-descriptionContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping if needed */
+  gap: 20px; /* Gap between product containers */
+}
+
+.OrderInAdministrator-productContainer {
+  width: 48%; /* Adjust width to fit within the container */
+  display: flex;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  align-items: flex-start;
+}
+
+.OrderInAdministrator-image {
+  width: 30%;
+}
+
+.OrderInAdministrator-productImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.OrderInAdministrator-title {
+  width: 40%;
+}
+
+.OrderInAdministrator-priceQuantity {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.OrderInAdministrator-deleteButton {
+  background-color: #d32f2f; /* Primary accent: Crimson red */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.OrderInAdministrator-deleteButton:hover {
+  background-color: #b71c1c; /* Darker red on hover */
+  box-shadow: 0 4px 8px rgba(183, 28, 28, 0.3); /* Add shadow for hover effect */
+}

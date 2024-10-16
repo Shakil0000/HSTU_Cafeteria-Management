@@ -1,0 +1,82 @@
+.CompletedOrder-container {
+    padding: 20px;
+    background-color: #f4f4f4; /* Simple background color */
+  }
+  
+  .CompletedOrder-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333; /* Dark gray for better readability */
+    margin-bottom: 20px;
+  }
+  
+  .CompletedOrder-card {
+    background-color: #ffffff; /* White card background */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(170, 170, 170, 0.2); /* Soft shadow */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .CompletedOrder-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(170, 170, 170, 0.3); /* Slightly stronger shadow on hover */
+  }
+  
+  .CompletedOrder-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0ae347; /* Light gray background */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    margin-bottom: 10px;
+    color: #333; /* Dark gray for text */
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .CompletedOrder-summary span {
+    margin-right: 10px;
+  }
+  
+  .CompletedOrder-descriptionContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    gap: 20px; /* Gap between product containers */
+  }
+  
+  .CompletedOrder-productContainer {
+    width: 48%; /* Adjust width to fit within the container */
+    display: flex;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    align-items: flex-start;
+  }
+  
+  .CompletedOrder-image {
+    width: 30%;
+  }
+  
+  .CompletedOrder-productImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .CompletedOrder-title {
+    width: 40%;
+  }
+  
+  .CompletedOrder-priceQuantity {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  

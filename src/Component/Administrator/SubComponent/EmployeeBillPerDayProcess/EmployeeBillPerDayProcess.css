@@ -1,0 +1,61 @@
+.EmployeeBillPerDayProcessContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.EmployeeBillPerDayProcessForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between each employee form block */
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.EmployeeBillPerDayProcessHeader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.EmployeeBillPerDayProcessHeader span {
+    flex: 1; /* Makes each heading take up equal space */
+    min-width: 120px;
+    padding: 10px;
+}
+
+.EmployeeBillPerDayProcessFormBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjusts space between inputs */
+    align-items: center;
+}
+
+.EmployeeBillPerDayProcessInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* Ensure each input takes equal space */
+    min-width: 120px; /* Ensures inputs don't get too small */
+}
+
+.EmployeeBillPerDayProcessButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.EmployeeBillPerDayProcessButton:hover {
+    background-color: #45a049;
+}

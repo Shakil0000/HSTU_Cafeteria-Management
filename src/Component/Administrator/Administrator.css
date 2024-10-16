@@ -1,0 +1,43 @@
+.AdministratorContainer {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.AdministratorLeftContainer{
+    width: 20%;
+    background-color: #f5f5f5;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.AdministratorSidebar {
+    width: 100%;
+    position: sticky;
+    top: 70px;
+    height: 300px;
+    padding: 20px;
+}
+
+.AdministratorButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.AdministratorButton:hover {
+    background-color: #45a049;
+}
+
+.AdministratorContent {
+    width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+}

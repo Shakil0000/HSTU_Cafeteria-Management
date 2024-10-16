@@ -1,0 +1,98 @@
+.TakeOrder-container {
+  padding: 20px;
+  background-color: #f4f4f4; /* Simple background color */
+}
+
+.TakeOrder-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333; /* Dark gray for better readability */
+  margin-bottom: 20px;
+}
+
+.TakeOrder-card {
+  background-color: #ffffff; /* White card background */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(170, 170, 170, 0.2); /* Soft shadow */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.TakeOrder-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(170, 170, 170, 0.3); /* Slightly stronger shadow on hover */
+}
+
+.TakeOrder-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8355ed; /* Light gray background */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  margin-bottom: 10px;
+  color: #333; /* Dark gray for text */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.TakeOrder-summary span {
+  margin-right: 10px;
+}
+
+.TakeOrder-descriptionContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping if needed */
+  gap: 20px; /* Gap between product containers */
+}
+
+.TakeOrder-productContainer {
+  width: 48%; /* Adjust width to fit within the container */
+  display: flex;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  align-items: flex-start;
+}
+
+.TakeOrder-image {
+  width: 30%;
+}
+
+.TakeOrder-productImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.TakeOrder-title {
+  width: 40%;
+}
+
+.TakeOrder-priceQuantity {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Take Order button */
+.TakeOrder-button {
+  background-color: #4caf50; /* Green background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.TakeOrder-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

@@ -1,0 +1,88 @@
+.employeeLogin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(145deg, #d4fc79, #96e6a1);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 70%; /* Increased width */
+    margin: 20px auto;
+  }
+  
+  .employeeLogin-header {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    color: #2d2d2d;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .employeeLogin-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employeeLogin-title {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #39a2db;
+    text-align: center;
+  }
+  
+  .employeeLogin-input {
+    margin-bottom: 15px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .employeeLogin-input:focus {
+    border-color: #39a2db;
+    outline: none;
+  }
+  
+  .employeeLogin-select {
+    background-color: #f9f9f9;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .employeeLogin-button {
+    background-color: #39a2db;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+  
+  .employeeLogin-toggleButton {
+    background-color: #f76c6c;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+  
+  .employeeLogin-button:hover {
+    background-color: #2881c2;
+  }
+  
+  .employeeLogin-toggleButton:hover {
+    background-color: #e05b5b;
+  }
+  

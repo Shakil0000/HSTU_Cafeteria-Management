@@ -1,0 +1,23 @@
+.Fottercointainer{
+    margin-top: 10px;
+    display: flex;
+    padding: 10px 0px;
+    background-color: rgb(51, 19, 233);
+  justify-content: center;
+     gap: 190px;
+    
+}
+
+.footeritem{
+    display: flex;
+     justify-content: space-between;
+    flex-direction: column;
+   
+
+} 
+.footeritem p{
+color: aliceblue;
+}
+.Fottercointainer h4{
+    color: aliceblue;
+}

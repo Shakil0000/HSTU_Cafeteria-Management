@@ -1,0 +1,77 @@
+
+.navContainer{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: #4a90e2; /* Primary color */
+    
+}
+
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0px 20px;
+  }
+  
+  /* Logo Section */
+  .navbarLogo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbarLogo:hover {
+    color: #ffd700; /* Gold color on hover */
+  }
+  
+  /* Navbar Links */
+  .navbarLinks {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  /* Navbar Item */
+  .navbarItem {
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .navbarItem:hover {
+    background-color: #357abd; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }
+  
+  .navbarItem:active {
+    background-color: #2d5d8a; /* Even darker blue on click */
+    transform: translateY(0); /* Reset lift effect on click */
+  }
+  
+  /* Adding some spacing to the hover and active effects */
+  .navbarItem::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ffd700; /* Gold underline effect */
+    bottom: 0;
+    left: 50%;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .navbarItem:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  

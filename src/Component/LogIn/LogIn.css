@@ -1,0 +1,82 @@
+/* Main container for the Login page */
+.LoginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .LoginTitle {
+    color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  /* Form container */
+  .LoginForm {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .LoginFormGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .LoginFormGroup label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .LoginFormGroup input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .LoginSubmitButton,
+  .LoginSignUpButton {
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .LoginSubmitButton {
+    background-color: #4a90e2;
+  }
+  
+  .LoginSubmitButton:hover {
+    background-color: #357abd;
+  }
+  
+  .LoginSignUpButton {
+    background-color: #d9534f; /* Red color for the Sign Up button */
+    margin-top: 10px;
+  }
+  
+  .LoginSignUpButton:hover {
+    background-color: #c9302c;
+  }
+  
+  .LoginPopupMessage {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f4f8;
+    color: #333;
+    border: 1px solid #b3d9ff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

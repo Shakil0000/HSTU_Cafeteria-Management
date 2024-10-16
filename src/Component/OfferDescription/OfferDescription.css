@@ -1,0 +1,44 @@
+.offerDescriptionContainer {
+    height: 600px;
+    width: 90%;
+    padding: 5px;
+    margin: 25px auto;
+    display: flex;
+  }
+  
+  .offerDescription1 {
+    width: 30%;
+    height: 100%;
+    margin: 2px;
+    text-align: justify;
+    margin: 5px 30px;
+  }
+  
+  .offerDescription2 {
+    width: 40%;
+    height: 100%;
+    margin: 2px;
+    padding: 2px;
+    text-align: left;
+  }
+  
+  .offerDescription3 {
+    width: 30%;
+    height: 100%;
+    margin: 2px;
+    text-align: start;
+  }
+  
+  .OfferDescriptionButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .OfferDescriptionButton:hover {
+    background-color: #0056b3;
+  }
